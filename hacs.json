@@ -5,6 +5,5 @@
     "domains": ["vacuum"],
     "homeassistant": "2021.6.0",
     "iot_class": "local_poll",
-    "zip_release": true,
-    "filename": "miio2.zip"
+    "zip_release": true
 }
