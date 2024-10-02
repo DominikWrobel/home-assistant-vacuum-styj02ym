@@ -276,8 +276,8 @@ class MiroboVacuum2(StateVacuumEntity):
         return {
             "identifiers": {(DOMAIN, self._unique_id)},
             "name": self._name,
-            "manufacturer": "Xiaomi",
-            "model": "Vacuum cleaner STYJ02YM",
+            "manufacturer": "Viomi",
+            "model": "Vacuum cleaner V-RVCLM21B",
         }
 
     @property
