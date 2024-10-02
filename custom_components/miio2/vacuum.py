@@ -188,6 +188,17 @@ VACUUM_CARD_PROPS_REFERENCES = {
     'cleaning_time': 's_time'
 }
 
+async def async_setup_entry(hass, config_entry, async_add_entities):
+    """Set up the Xiaomi vacuum platform."""
+    host = config_entry.data[CONF_HOST]
+    token = config_entry.data[CONF_TOKEN]
+    name = config_entry.data[CONF_NAME]
+
+    vacuum = ViomiVacuum(host, token)
+    mirobo = MiroboVacuum2(name, vacuum)
+    
+    async_add_entities([mirobo], update_before_add=True)
+
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
     """Set up the Xiaomi vacuum cleaner robot platform."""
     if DATA_KEY not in hass.data:
