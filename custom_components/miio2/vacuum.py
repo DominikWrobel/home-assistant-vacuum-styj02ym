@@ -26,6 +26,7 @@ from homeassistant.components.vacuum import (
     SUPPORT_STATE,
     SUPPORT_STOP,
     StateVacuumEntity,
+    VacuumEntityFeature,
 )
 from homeassistant.const import (
     ATTR_ENTITY_ID,
@@ -35,6 +36,9 @@ from homeassistant.const import (
     STATE_OFF,
     STATE_ON,
 )
+
+from homeassistant.helpers import entity
+
 import homeassistant.helpers.config_validation as cv
 
 _LOGGER = logging.getLogger(__name__)
@@ -129,15 +133,15 @@ FAN_SPEEDS = {"Silent": 0, "Standard": 1, "Medium": 2, "Turbo": 3}
 
 
 SUPPORT_XIAOMI = (
-    SUPPORT_STATE
-    | SUPPORT_PAUSE
-    | SUPPORT_STOP
-    | SUPPORT_RETURN_HOME
-    | SUPPORT_FAN_SPEED
-    | SUPPORT_LOCATE
-    | SUPPORT_SEND_COMMAND
-    | SUPPORT_BATTERY
-    | SUPPORT_START
+    VacuumEntityFeature.STATE
+    | VacuumEntityFeature.PAUSE
+    | VacuumEntityFeature.STOP
+    | VacuumEntityFeature.RETURN_HOME
+    | VacuumEntityFeature.FAN_SPEED
+    | VacuumEntityFeature.LOCATE
+    | VacuumEntityFeature.SEND_COMMAND
+    | VacuumEntityFeature.BATTERY
+    | VacuumEntityFeature.START
 )
 
 
@@ -245,11 +249,24 @@ class MiroboVacuum2(StateVacuumEntity):
         """Initialize the Xiaomi vacuum cleaner robot handler."""
         self._name = name
         self._vacuum = vacuum
-
+        self._unique_id = f"{vacuum.ip}-{vacuum.token}"  # Create unique ID from IP and token
         self._last_clean_point = None
-
         self.vacuum_state = None
         self._available = False
+
+    @property
+    def unique_id(self) -> str:
+        """Return a unique ID."""
+        return self._unique_id
+
+    @property
+    def device_info(self):
+        """Return device info for this vacuum."""
+        return {
+            "identifiers": {(DOMAIN, self._unique_id)},
+            "name": self._name,
+            "manufacturer": "Xiaomi",
+            "model": "Vacuum cleaner STYJ02YM",
 
     @property
     def name(self):
