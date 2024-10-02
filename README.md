@@ -1,11 +1,11 @@
-## Hacky Home assistant support for Xiaomi vacuum STYJ02YM
+## Hacky Home assistant support for Viomi SE and 
 
 ![logo](https://github.com/user-attachments/assets/398cdf45-c36b-4cf2-b458-af00832aa092)
 
 _Original code by [@nqkdev](https://github.com/nqkdev/home-assistant-vacuum-styj02ym) and [@KrzysztofHajdamowicz](https://github.com/KrzysztofHajdamowicz/home-assistant-vacuum-styj02ym) then I forked it and added HACS support, unique_id and fixed some deprevation notices._  
-_Next steps will be to add config flow for the integration and get STYJ02YM working in Home Assistant for as long as I can._
+_I will try with your help to have this integration working as long as I can._
 
-### This is for STYJ02YM (apparently EU version) with 3.5.3_0017 firmware
+### This is for STY02YM, STYJ02YM and V-RVCLM21B (apparently EU version) with 3.5.3_0017 firmware
 
 #### Install
 
