@@ -17,7 +17,9 @@ Find Xiaomi miio vacuum STYJ02YM in integrations page:
 
 ![setup](https://github.com/user-attachments/assets/f93df4df-1c82-4dca-8584-05c314d4bccf)
 
-With the great Xiaomi [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) and [Lovelace Vacuum Map card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card?tab=readme-ov-file#lovelace-vacuum-map-card) you can make a great card for your vacuum:
+Note: Vacuum token can be extracted by following [this guide](https://www.home-assistant.io/integrations/xiaomi_miio/#retrieving-the-access-token). I recommend using the python script method to extract the token as it is simpler, and only requires you to enter your Xiaomi Cloud username and password. These are the credentials used for the Xiaomi Home app (not ones from Viomi Robot app).
+
+With the great [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) and [Lovelace Vacuum Map card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card?tab=readme-ov-file#lovelace-vacuum-map-card) you can make a great card for your vacuum:
 
 ![mapa](https://github.com/user-attachments/assets/baffebc6-e6fb-490b-9482-1064e897b182)
 
