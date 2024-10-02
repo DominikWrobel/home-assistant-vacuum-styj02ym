@@ -1,3 +1,5 @@
+# Moved to a new name Viomi SE (https://github.com/DominikWrobel/viomise)
+
 ## Home Assistant integration for Viomi SE and Xiaomi STY02YM, STYJ02YM vacuums
 
 ![logo](https://github.com/user-attachments/assets/398cdf45-c36b-4cf2-b458-af00832aa092)
