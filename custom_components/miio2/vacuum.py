@@ -267,6 +267,7 @@ class MiroboVacuum2(StateVacuumEntity):
             "name": self._name,
             "manufacturer": "Xiaomi",
             "model": "Vacuum cleaner STYJ02YM",
+        }
 
     @property
     def name(self):
