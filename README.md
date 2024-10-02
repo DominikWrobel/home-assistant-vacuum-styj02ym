@@ -17,6 +17,10 @@ Find Xiaomi miio vacuum STYJ02YM in integrations page:
 
 ![setup](https://github.com/user-attachments/assets/f93df4df-1c82-4dca-8584-05c314d4bccf)
 
+With the great Xiaomi [Xiaomi Cloud Map Extractor](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor) and [Lovelace Vacuum Map card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card?tab=readme-ov-file#lovelace-vacuum-map-card) you can make a great card for your vacuum:
+
+![mapa](https://github.com/user-attachments/assets/baffebc6-e6fb-490b-9482-1064e897b182)
+
 # Support
 
 If you like my work you can support me via:
