@@ -3,7 +3,7 @@
 ![logo](https://github.com/user-attachments/assets/398cdf45-c36b-4cf2-b458-af00832aa092)
 
 _Original code by [@nqkdev](https://github.com/nqkdev/home-assistant-vacuum-styj02ym) and [@KrzysztofHajdamowicz](https://github.com/KrzysztofHajdamowicz/home-assistant-vacuum-styj02ym) then I forked it and added HACS support, unique_id and fixed some deprevation notices._  
-_I will try with your help to have this integration working as long as I can._
+_I will try, with your help, to have this integration working as long as I can._
 
 ### This is for V-RVCLM21B, STY02YM and STYJ02YM (apparently EU version) with 3.5.3_0017 firmware
 
