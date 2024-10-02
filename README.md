@@ -10,19 +10,12 @@ _Next steps will be to add config flow for the integration and get STYJ02YM work
 #### Install
 
 - Install it with HACS by adding (https://github.com/DominikWrobel/home-assistant-vacuum-styj02ym) as a custom repository
-- Add the configuration to configuration.yaml, example:
 
 #### Usage
 
-Add to `configuration.yaml`:
+Find Xiaomi miio vacuum STYJ02YM in integrations page:
 
-```yaml
-vacuum:
-  - platform: miio2
-    host: 192.168.68.105
-    token: !secret vacuum
-    name: Mi hihi
-```
+![setup](https://github.com/user-attachments/assets/f93df4df-1c82-4dca-8584-05c314d4bccf)
 
 # Support
 
