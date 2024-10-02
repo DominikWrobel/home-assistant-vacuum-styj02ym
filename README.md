@@ -21,6 +21,15 @@ With the great Xiaomi [Xiaomi Cloud Map Extractor](https://github.com/PiotrMacho
 
 ![mapa](https://github.com/user-attachments/assets/baffebc6-e6fb-490b-9482-1064e897b182)
 
+#### Works with
+
+| Model | Device ID | Aliases | Status |
+| ----- | --------- | ------- | ------ |
+| **STYJ02YM** | viomi.vacuum.v8 | Mi Robot Vacuum-Mop P <br> MiJia Mi Robot Vacuum Cleaner <br> Xiaomi Mijia Robot Vacuum Cleaner LDS | :white_check_mark: Verified |
+| **STY02YM** | viomi.vacuum.v7 | Mi Robot Vacuum-Mop P (CN) | :white_check_mark: Verified |
+| **V-RVCLM21B** | viomi.vacuum.v6 | Viomi V2 <br> Xiaomi Viomi Cleaning Robot <br> Viomi Cleaning Robot V2 Pro | :white_check_mark: Verified |
+
+
 # Support
 
 If you like my work you can support me via:
