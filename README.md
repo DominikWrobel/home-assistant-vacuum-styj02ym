@@ -1,16 +1,13 @@
-# New maintainer is required.
-My Python and Home Assistant knowledge does not allow me to continue ducktaping this code. Any new maintainer will be much appreciated! In the meantime, I recommend switching to https://github.com/nergal/homeassistant-vacuum-viomi
-
 ## Hacky Home assistant support for Xiaomi vacuum STYJ02YM
 
-_Original code by [@nqkdev](https://github.com/nqkdev/home-assistant-vacuum-styj02ym), then I forked it and added HACS support._  
-_Next steps were checking forks of original repository and backporting changes in order to provide most feature-complete Home Assistant integration for STYJ02YM._
+_Original code by [@nqkdev](https://github.com/nqkdev/home-assistant-vacuum-styj02ym) and [@KrzysztofHajdamowicz](https://github.com/KrzysztofHajdamowicz/home-assistant-vacuum-styj02ym) then I forked it and added HACS support, unique_id and fixed some deprevation notices._  
+_Next steps will be to add config flow for the integration and get STYJ02YM working in Home Assistant for as long as I can._
 
 ### This is for STYJ02YM (apparently EU version) with 3.5.3_0017 firmware
 
 #### Install
 
-- Install it with HACS
+- Install it with HACS by adding (https://github.com/DominikWrobel/home-assistant-vacuum-styj02ym) as a custom repository
 - Add the configuration to configuration.yaml, example:
 
 #### Usage
@@ -24,3 +21,9 @@ vacuum:
     token: !secret vacuum
     name: Mi hihi
 ```
+
+# Support
+
+If you like my work you can support me via:
+
+<figure class="wp-block-image size-large"><a href="https://www.buymeacoffee.com/dominikjwrc"><img src="https://homeassistantwithoutaplan.files.wordpress.com/2023/07/coffe-3.png?w=182" alt="" class="wp-image-64"/></a></figure>
