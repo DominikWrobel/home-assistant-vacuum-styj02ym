@@ -1,6 +1,6 @@
 ## Hacky Home assistant support for Xiaomi vacuum STYJ02YM
 
-![icon](https://github.com/user-attachments/assets/4ad960a3-ad78-4b40-8886-5c6e122fc87c)
+![logo](https://github.com/user-attachments/assets/398cdf45-c36b-4cf2-b458-af00832aa092)
 
 _Original code by [@nqkdev](https://github.com/nqkdev/home-assistant-vacuum-styj02ym) and [@KrzysztofHajdamowicz](https://github.com/KrzysztofHajdamowicz/home-assistant-vacuum-styj02ym) then I forked it and added HACS support, unique_id and fixed some deprevation notices._  
 _Next steps will be to add config flow for the integration and get STYJ02YM working in Home Assistant for as long as I can._
